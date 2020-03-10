@@ -1,0 +1,1 @@
+docker run -p 80:80 theykk/netcore:v1 --server.urls http://0.0.0.0:80

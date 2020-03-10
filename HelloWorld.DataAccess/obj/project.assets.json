@@ -1,0 +1,115 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HelloWorld.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "HelloWorld.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HelloWorld.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloWorld.Business.dll": {}
+        }
+      },
+      "HelloWorld.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/HelloWorld.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloWorld.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorld.Business/1.0.0": {
+      "type": "project",
+      "path": "../HelloWorld.Business/HelloWorld.Business.csproj",
+      "msbuildProject": "../HelloWorld.Business/HelloWorld.Business.csproj"
+    },
+    "HelloWorld.Entities/1.0.0": {
+      "type": "project",
+      "path": "../HelloWorld.Entities/HelloWorld.Entities.csproj",
+      "msbuildProject": "../HelloWorld.Entities/HelloWorld.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "HelloWorld.Business >= 1.0.0",
+      "HelloWorld.Entities >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Umut\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.DataAccess\\HelloWorld.DataAccess.csproj",
+      "projectName": "HelloWorld.DataAccess",
+      "projectPath": "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.DataAccess\\HelloWorld.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\Umut\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.DataAccess\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Umut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.Business\\HelloWorld.Business.csproj": {
+              "projectPath": "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.Business\\HelloWorld.Business.csproj"
+            },
+            "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.Entities\\HelloWorld.Entities.csproj": {
+              "projectPath": "C:\\Users\\Umut\\Desktop\\HelloWorld\\HelloWorld.Entities\\HelloWorld.Entities.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
